@@ -26,32 +26,18 @@ components:
     layout_properties: {grid_position: 'NJZTFG,KBPUMD'}
   - type: Label
     properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-      visible: true, text: Step - 1, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Step - 5, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
       underline: false, icon: ''}
     name: label_2
     layout_properties: {grid_position: 'IHBBJQ,KTHREF'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Applicant full name, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Marital Status, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_3
     layout_properties: {grid_position: 'XJRTPO,VIXAYU'}
-  - type: TextBox
-    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
-      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
-      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
-      background: 'theme:On Primary', bold: false, underline: false}
-    name: text_box_1
-    layout_properties: {grid_position: 'XJRTPO,XRZRDW'}
-  - type: Label
-    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Gender, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
-    name: label_4
-    layout_properties: {grid_position: 'DNQLRY,BCPMUS'}
   - type: DropDown
     properties:
       role: null
@@ -61,7 +47,7 @@ components:
       border: ''
       enabled: true
       foreground: ''
-      items: ['', Male, Female, Others]
+      items: ['', Un-married, Married, Divorced]
       visible: true
       font_size: null
       font: ''
@@ -73,12 +59,30 @@ components:
       underline: false
       include_placeholder: false
     name: drop_down_1
-    layout_properties: {grid_position: 'DNQLRY,GOTXUD'}
+    layout_properties: {grid_position: 'XJRTPO,SDMDGJ'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: City Residence, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
+      visible: true, text: 'Spouse profession
+
+        (If married)', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'DNQLRY,BCPMUS'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: 'theme:On Primary', bold: false, underline: false}
+    name: text_box_1
+    layout_properties: {grid_position: 'DNQLRY,NWNAZQ'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Spouse mobile number
+
+        (If married)', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
     name: label_5
     layout_properties: {grid_position: 'EVCZWQ,JYRYVA'}
   - type: TextBox

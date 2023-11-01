@@ -26,14 +26,14 @@ components:
     layout_properties: {grid_position: 'NJZTFG,KBPUMD'}
   - type: Label
     properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-      visible: true, text: Step - 1, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Step - 7, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
       underline: false, icon: ''}
     name: label_2
     layout_properties: {grid_position: 'IHBBJQ,KTHREF'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Applicant full name, font_size: null, font: '', spacing_above: small,
+      visible: true, text: Landmark, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_3
@@ -44,39 +44,24 @@ components:
       font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
       background: 'theme:On Primary', bold: false, underline: false}
     name: text_box_1
-    layout_properties: {grid_position: 'XJRTPO,XRZRDW'}
+    layout_properties: {grid_position: 'XJRTPO,WPRZDE'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: Gender, font_size: null, font: '', spacing_above: small,
+      visible: true, text: City, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_4
     layout_properties: {grid_position: 'DNQLRY,BCPMUS'}
-  - type: DropDown
-    properties:
-      role: null
-      align: full
-      tooltip: ''
-      placeholder: ''
-      border: ''
-      enabled: true
-      foreground: ''
-      items: ['', Male, Female, Others]
-      visible: true
-      font_size: null
-      font: ''
-      spacing_above: small
-      spacing_below: small
-      italic: false
-      background: theme:On Primary
-      bold: false
-      underline: false
-      include_placeholder: false
-    name: drop_down_1
-    layout_properties: {grid_position: 'DNQLRY,GOTXUD'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: 'theme:On Primary', bold: false, underline: false}
+    name: text_box_2
+    layout_properties: {grid_position: 'DNQLRY,VOVLZF'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: City Residence, font_size: null, font: '', spacing_above: small,
+      visible: true, text: State, font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_5
@@ -86,8 +71,22 @@ components:
       border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
       font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
       background: 'theme:On Primary', bold: false, underline: false}
-    name: text_box_2
-    layout_properties: {grid_position: 'EVCZWQ,ZEYXGW'}
+    name: text_box_3
+    layout_properties: {grid_position: 'EVCZWQ,LXCHCA'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Pincode, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_6
+    layout_properties: {grid_position: 'UOEUOC,OLZNQG'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: 'theme:On Primary', bold: false, underline: false}
+    name: text_box_4
+    layout_properties: {grid_position: 'UOEUOC,MRMCHA'}
   - type: Button
     properties: {role: elevated-button, align: center, tooltip: '', border: '', enabled: true,
       foreground: 'theme:On Primary Container', visible: true, text: Prev, font_size: null,

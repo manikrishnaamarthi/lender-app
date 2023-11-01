@@ -47,7 +47,8 @@ components:
       border: ''
       enabled: true
       foreground: ''
-      items: []
+      items: ['', Rs 10000, Rs 20000, Rs 30000, Rs 40000, Rs  50000, Rs 60000, Rs 70000,
+        Rs 80000, Rs 90000, Rs 100000]
       visible: true
       font_size: null
       font: ''
@@ -106,6 +107,7 @@ components:
       background: '#0876E8', bold: true, underline: false, icon: 'fa:angle-double-left'}
     name: button_1
     layout_properties: {grid_position: 'RCQFYT,APNXXB'}
+    event_bindings: {click: button_1_click}
   - type: Button
     properties: {role: elevated-button, align: center, tooltip: '', border: '', enabled: true,
       foreground: 'theme:On Primary Container', visible: true, text: Next, font_size: null,
@@ -113,6 +115,7 @@ components:
       background: '#0876E8', bold: true, underline: false, icon: 'fa:angle-double-right'}
     name: button_2
     layout_properties: {grid_position: 'RCQFYT,QWKEBE'}
+    event_bindings: {click: button_2_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
