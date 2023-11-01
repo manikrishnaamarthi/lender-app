@@ -22,6 +22,7 @@ components:
       bold: true, underline: false, icon: 'fa:home'}
     name: button_2
     layout_properties: {grid_position: 'EKPSMY,SPRXYF'}
+    event_bindings: {click: button_2_click}
   - type: Button
     properties: {role: filled-button, align: right, tooltip: '', border: '', enabled: true,
       foreground: black, visible: true, text: Logout, font_size: null, font: '', spacing_above: small,
@@ -29,6 +30,14 @@ components:
       bold: true, underline: false, icon: 'fa:sign-out'}
     name: button_1
     layout_properties: {grid_position: 'EKPSMY,IYFYUG'}
+  - name: label_1
+    properties: {text: Make Visibility Online /Offline, bold: true, align: right}
+    type: Label
+    layout_properties: {grid_position: 'ALPNRE,PKKLHZ'}
+  - name: radio_button_1
+    properties: {text: Online, selected: true, bold: false}
+    type: RadioButton
+    layout_properties: {grid_position: 'ALPNRE,TIEBJK'}
   - type: Button
     properties: {role: outlined-button, align: center, tooltip: '', border: '', enabled: true,
       foreground: Black, visible: true, text: View Opening Balance, font_size: null,
@@ -41,13 +50,9 @@ components:
     name: outlined_button_2
     layout_properties: {grid_position: 'QGMHYD,ZHFFTU'}
   - type: Button
-    properties: {text: View Borrower Loan Requests, role: outlined-button, foreground: black}
+    properties: {text: View Loan Requests, role: outlined-button, foreground: black}
     name: outlined_button_3
     layout_properties: {grid_position: 'QGMHYD,FFAHMM'}
-  - type: Button
-    properties: {text: View Loan Extension Requests, role: outlined-button, foreground: black}
-    name: outlined_button_8
-    layout_properties: {grid_position: 'QGMHYD,XCVBTQ'}
   - type: Button
     properties: {text: ' Today’s Dues', role: outlined-button, foreground: black}
     name: outlined_button_6
@@ -84,6 +89,10 @@ components:
     properties: {text: View Lost opportunities, role: outlined-button, foreground: black}
     name: outlined_button_5
     layout_properties: {grid_position: 'RTTUWD,UVYPAF'}
+  - type: Button
+    properties: {text: View Loan Extension Requests, role: outlined-button, foreground: black}
+    name: outlined_button_8
+    layout_properties: {grid_position: 'RTTUWD,ARXRPT'}
   - type: Button
     properties: {text: View Loan Foreclosure Requests, role: outlined-button, foreground: black,
       font_size: null}

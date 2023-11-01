@@ -14,5 +14,6 @@ class Lender_reg_Institutional_bank_form_2(Lender_reg_Institutional_bank_form_2T
 
   def button_2_click(self, **event_args):
     alert("Institutional Registration Completed!")
+    open_form("user_form.Dashboard")
     """This method is called when the button is clicked"""
     
