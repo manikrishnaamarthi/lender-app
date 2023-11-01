@@ -9,9 +9,8 @@ class Lender_reg_Institutional_form_1(Lender_reg_Institutional_form_1Template):
     # Any code you write here will run before the form opens.
 
   def button_1_click(self, **event_args):
-    open_form('user_form.Lender_reg_form_6')
+    open_form('user_form.Lender_reg_form_8')
     """This method is called when the button is clicked"""
 
   def button_2_click(self, **event_args):
-    """This method is called when the button is clicked"""
-    pass
+    open_form('user_form.Lender_reg_Institutional_form_2')

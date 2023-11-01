@@ -88,7 +88,7 @@ components:
     name: text_box_4
     layout_properties: {grid_position: 'JOGWBF,DSNDZU'}
   - type: Button
-    properties: {role: elevated-button, align: center, tooltip: '', border: '', enabled: true,
+    properties: {role: elevated-button, align: right, tooltip: '', border: '', enabled: true,
       foreground: 'theme:On Primary Container', visible: true, text: Prev, font_size: null,
       font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
       background: '#0876E8', bold: true, underline: false, icon: 'fa:angle-double-left'}
@@ -96,7 +96,7 @@ components:
     layout_properties: {grid_position: 'RCQFYT,APNXXB'}
     event_bindings: {click: button_1_click}
   - type: Button
-    properties: {role: elevated-button, align: center, tooltip: '', border: '', enabled: true,
+    properties: {role: elevated-button, align: left, tooltip: '', border: '', enabled: true,
       foreground: 'theme:On Primary Container', visible: true, text: Next, font_size: null,
       font: '', spacing_above: small, icon_align: right, spacing_below: small, italic: false,
       background: '#0876E8', bold: true, underline: false, icon: 'fa:angle-double-right'}
