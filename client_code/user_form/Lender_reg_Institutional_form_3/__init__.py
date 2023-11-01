@@ -1,5 +1,9 @@
 from ._anvil_designer import Lender_reg_Institutional_form_3Template
 from anvil import *
+import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class Lender_reg_Institutional_form_3(Lender_reg_Institutional_form_3Template):
   def __init__(self, **properties):
