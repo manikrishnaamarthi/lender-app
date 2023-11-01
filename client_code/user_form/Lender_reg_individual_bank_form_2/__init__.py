@@ -18,5 +18,6 @@ class Lender_reg_individual_bank_form_2(Lender_reg_individual_bank_form_2Templat
 
   def button_2_click(self, **event_args):
     alert("Individual Lendor registration Compelted!")
+    open_form("user_form.Dashboard")
     """This method is called when the button is clicked"""
     
