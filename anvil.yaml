@@ -3,7 +3,7 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-startup: {type: form, module: main_login_form}
+startup: {type: form, module: user_form}
 package_name: Lendor_app
 allow_embedding: false
 name: Lendor_app
