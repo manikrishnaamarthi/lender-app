@@ -47,7 +47,7 @@ components:
       border: ''
       enabled: true
       foreground: ''
-      items: ['', SSC, '', Board, UG, PG, '']
+      items: ['', SSC, Board, UG, PG, '']
       visible: true
       font_size: null
       font: ''
